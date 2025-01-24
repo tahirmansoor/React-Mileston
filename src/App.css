@@ -1,0 +1,49 @@
+body{
+  margin: 0
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.ListingBox{
+
+  border:1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ListingDescp{
+  padding:10px 20px;
+}
+
+.ListingDescp h5{
+  margin: 0;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
